@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="Vbox_mainContainer" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="250.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.daniel.moune.java.ebusreservation.exception.Controller">
+   <children>
+      <Label alignment="CENTER" contentDisplay="CENTER" prefHeight="150.0" prefWidth="380.0" text="An error has occured" wrapText="true">
+         <VBox.margin>
+            <Insets left="20.0" right="20.0" top="15.0" />
+         </VBox.margin>
+      </Label>
+      <Region prefHeight="95.0" prefWidth="380.0" VBox.vgrow="ALWAYS" />
+      <Button fx:id="btn_ok" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#closeErrorDialog" prefHeight="30.0" prefWidth="125.0" text="OK">
+         <VBox.margin>
+            <Insets bottom="15.0" left="60.0" />
+         </VBox.margin>
+      </Button>
+   </children>
+</VBox>

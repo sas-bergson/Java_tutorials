@@ -1,0 +1,7 @@
+Manifest-Version: 1.0
+Built-By: moune
+Build-Jdk: 17.0.8
+Main-Class: com.daniel.moune.java.ebusreservation.newticket.Main
+Class-Path: lib/javaFx
+Created-By: 1.0.0 (Ubuntu 20.04)
+
