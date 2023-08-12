@@ -1,3 +1,7 @@
 Manifest-Version: 1.0
-Created-By: 11.0.8 (Ubuntu)
+Built-By: moune
+Build-Jdk: 1.8.0
+Main-Class: Wellcome
+Class-Path: lib/javatutorial4.jar
+Created-By: 1.0.0 (Ubuntu 20.04)
 

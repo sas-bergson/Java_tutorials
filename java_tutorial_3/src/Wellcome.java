@@ -20,5 +20,7 @@ public class Wellcome{
 		new_student.phoneNumber = input.nextInt();
 		System.out.println("----------------------------");
 		System.out.println("Welcome to " + new_student.name);
+		System.out.println("your matricule is  " + new_student.matricule);
+		System.out.println("your phone number is " + new_student.phoneNumber);
 	}
 }
